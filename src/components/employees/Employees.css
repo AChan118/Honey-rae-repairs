@@ -1,8 +1,8 @@
 .employees{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    padding: 1em;
 }
 .employee{
     background-color: lightseagreen;
